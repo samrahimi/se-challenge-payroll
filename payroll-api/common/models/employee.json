@@ -1,0 +1,27 @@
+{
+  "name": "Employee",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "Name": {
+      "type": "string",
+      "required": true,
+      "default": "Unknown"
+    },
+    "ID": {
+      "type": "number",
+      "required": true
+    },
+    "JobGroupID": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

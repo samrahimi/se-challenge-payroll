@@ -1,0 +1,31 @@
+{
+  "name": "PayrollEntry",
+  "plural": "PayrollEntries",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "Date": {
+      "type": "date",
+      "required": true
+    },
+    "HoursWorked": {
+      "type": "number",
+      "required": true
+    },
+    "EmployeeID": {
+      "type": "number",
+      "required": true
+    },
+    "JobGroupID": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

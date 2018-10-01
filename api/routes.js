@@ -13,7 +13,6 @@ var appRouter = function (app) {
         //TODO: query the DB for payroll report data (do the grouping in query)
         //and return reports for all employees, broken out by pay period
         res.status(200).send()
-
     });
 
   }
